@@ -31,12 +31,6 @@ const SocialLinks = ({ contacts }) => {
                 </span>
             </a>
             <a className="text-secondary p-2"
-                href={contacts.freecodecamp}>
-                <span title="freeCodeCamp">
-                    <FaFreeCodeCamp size={26} style={{ color: "secondary" }} />
-                </span>
-            </a>
-            <a className="text-secondary p-2"
                 href={contacts.twitter}>
                 <span title="Twitter">
                     <FaTwitterSquare size={26} style={{ color: "secondary" }} />
