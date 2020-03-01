@@ -27,7 +27,7 @@ title: Code Day: 01 👍 Javascript Coding Questions
 * What is the object type?
 
 
-* Explain arrays in 
+* Explain arrays in  JS
 
 
 * What is Coercion in JavaScript?
@@ -64,7 +64,7 @@ title: Code Day: 01 👍 Javascript Coding Questions
 * What does the term "Transpiling" stand for?
 
 
-* Could you explain the difference between ES5 and 
+* Could you explain the difference between ES5 and  ES6
 
 
 * Explain prototype inheritance in JavaScript?
@@ -72,72 +72,53 @@ title: Code Day: 01 👍 Javascript Coding Questions
 
 * What is let keyword in JavaScript?
 
-* Given an array of integers, find the largest product yielded from three of the 
-
 
 * Being told that an unsorted array contains (n - 1) of n consecutive numbers (where the bounds are defined), find the missing number in O(n) 
 
+* Remove duplicates of an array and return an array of only unique Array
 
-* Remove duplicates of an array and return an array of only unique 
 
-
-* Given an array of integers, find the largest difference between two elements such that the element of lesser value must come before the greater 
-
+* Given an array of integers, find the largest difference between two elements such that the element of lesser value must come before the greater in JS Code
 
 
 * Find the intersection of two arrays. An intersection would be the common elements that exists within both arrays. In this case, these elements should be unique!
 
+* Find the Difference of two arrays. A Difference would be the non-common elements that is not there within both arrays. In this case
 
-
-* Given a string, reverse each word in the 
-
+* Given a string, reverse each word in the String
 
 * Given two strings, return true if they are anagrams of one 
 
-* Check if a given string is a 
+* Check if a given string is a anagram
 
-* Implement enqueue and dequeue using only two 
+* Implement enqueue and dequeue using only two Array in JS
 
 
-* Create a function that will evaluate if a given expression has balanced parentheses using 
-
+* Create a function that will evaluate if a given expression has balanced parentheses using JS Code.
 
 
 * Write a recursive function that returns the binary string of a given decimal 
 
 
-
-* Write a recursive function that performs a binary 
-
+* Write a recursive function that performs a binary search operation.
 
 
 * Given an integer, determine if it is a power of 2. If so, return that number, else return 
 
-
-* practical: 
-* Explain what is hoisting in 
+* Explain what is hoisting in JS.
 
 
+* Explain event bubbling and how one may prevent this and event delegation.
 
 
-* Explain event bubbling and how one may prevent 
-
-
-* Explain the difference between "undefined" and "not defined" in 
-
-* What will be the output of the following code?
-
-
+* Explain the difference between "undefined" and "null" in JS.
 
 
 * What is the drawback of creating true private in JavaScript?
 
 * What is closure in javascript? Provide an example?
 
-
-
 * Write a "mul" function which will properly when invoked as below syntax.
-
 
 
 * How to empty an array in JavaScript?
@@ -170,7 +151,7 @@ title: Code Day: 01 👍 Javascript Coding Questions
 
 
 
-* Explain the Prototype Design 
+* Explain the Prototype Design Pattern.
 
 
 * What is IIFEs (Immediately Invoked Function Expressions)?
@@ -179,25 +160,15 @@ title: Code Day: 01 👍 Javascript Coding Questions
 
 
 
-* Write a function that would allow you to do this.
-
-
-
 * How would you check if a number is an integer?
 
 
 
-* What will the following code output?
-
-
-
-* Write a function that would allow you to do 
+* Write a function that would allow you to remove duplicates from array.
 
 
 
 * When would you use the "bind" function?
-
-
 
 
 * What does "use strict" do?
@@ -219,8 +190,6 @@ title: Code Day: 01 👍 Javascript Coding Questions
 
 
 * Check if a given string is a palindrome. Case sensitivity should be taken into account.
-
-
 
 
 * What is the Temporal Dead Zone in ES6?
@@ -286,7 +255,7 @@ title: Code Day: 01 👍 Javascript Coding Questions
 
 * What are the advantages and disadvantages of using "use strict"?
 
-* Make this 
+* How to use Arrow function and why should we use it 
 
 
 
