@@ -9,7 +9,7 @@ date: 2020-03-02T13:54:07.809Z
 title: Javascript Interview Questions 03
 ---
 
-## Number of ways to iterate Object in Javascript 
+## Number of ways to iterate Object in Javascript (Objects)
 
 ```javascript
 const items = {

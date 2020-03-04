@@ -9,7 +9,7 @@ date: 2020-02-02T13:54:07.809Z
 title: Javascript Interview Questions 02
 ---
 
-1. Coding Question and problem solving
+## Coding Question and problem solving (Arrays)
 
 - Write a code to flatten Given Array 
 
