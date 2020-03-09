@@ -6,8 +6,7 @@ date: 2020-03-04T13:54:07.809Z
 title: Javascript Coding Questions Array Intrersection
 ---
 
-## Answer Questions : Deep concepts
-
+### Javascript Coding Questions Array Intrersection
 1. option-1
 
 ```javascript

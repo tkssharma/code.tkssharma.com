@@ -2,7 +2,7 @@
 tags:
   - javascript
 published: true
-date: 2020-03-05T13:54:07.809Z
+date: 2020-03-06T13:54:07.809Z
 title: Javascript Important Utility Methods 
 ---
 
