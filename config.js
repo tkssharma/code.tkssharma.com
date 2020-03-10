@@ -1,11 +1,11 @@
 module.exports = {
-  url: "https://me.tkssharma.com",
-  title: "Interview Diary",
-  tagline: "Keep Learning | Code everyday",
+  url: "https://code.tkssharma.com",
+  title: "Interview Diary | Website for JS Interviews",
+  tagline: "Keep Learning | Code everyday | Interview Preparations",
   copyright: "©2019 tkssharma",
   author: {
     name: "Tarun Sharma @tkssharma",
-    bio: "Developer at Srijan Technologies",
+    bio: "I am Tarun, I am Publisher, Trainer Developer, working on Enterprise and open source Technologies JavaScript frameworks (React Angular 2.x), I work with client side and server side javascript programming which includes node js or any other frameworks Currently working with JavaScript framework React & Node js 🚀 with Graphql 🎉 developer publications",
     contacts: {
       linkedin: "https://www.linkedin.com/in/tarun-sharma-03790254/",
       github: "https://github.com/tkssharma",
