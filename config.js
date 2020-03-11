@@ -1,8 +1,18 @@
 module.exports = {
+  themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
+  backgroundColor: '#ffffff',
   url: "https://code.tkssharma.com",
   title: "Interview Diary | Website for JS Interviews",
   tagline: "Keep Learning | Code everyday | Interview Preparations",
   copyright: "©2019 tkssharma",
+  siteTitle: 'Interview Diary',
+  siteTitleShort: 'Interview Diary',
+  siteTitleAlt: 'Tarun Sharma | @tkssharma',
+  siteLogo: '/icons/icon-512x512.png',
+  siteUrl: 'https://code.tkssharma.com',
+  repo: 'https://github.com/tkssharma/tkssharma.com',
+  pathPrefix: '',
+  siteDescription: 'This website having a list of interview questions and their solutions for helping you land your next JavaScript job',
   author: {
     name: "Tarun Sharma @tkssharma",
     bio: "I am Tarun, I am Publisher, Trainer Developer, working on Enterprise and open source Technologies JavaScript frameworks (React Angular 2.x), I work with client side and server side javascript programming which includes node js or any other frameworks Currently working with JavaScript framework React & Node js 🚀 with Graphql 🎉 developer publications",

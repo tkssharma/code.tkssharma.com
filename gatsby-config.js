@@ -1,12 +1,14 @@
 'use strict'
 
 const siteConfig = require("./config")
+const urljoin = require('url-join')
 
 module.exports = {
   siteMetadata: {
     url: siteConfig.url,
     title: siteConfig.title,
     tagline: siteConfig.tagline,
+    siteUrl: urljoin(siteConfig.siteUrl, siteConfig.pathPrefix),
     description: `I am Tarun, I am Publisher, Trainer Developer, working on Enterprise and open source Technologies JavaScript frameworks (React Angular 2.x), I work with client side and server side javascript programming which includes node js or any other frameworks Currently working with JavaScript framework React & Node js 🚀 with Graphql 🎉 developer publications.`,
     author: siteConfig.author.name,
     contacts: {
@@ -18,6 +20,7 @@ module.exports = {
     },
     labels: siteConfig.labels,
   },
+  pathPrefix: siteConfig.pathPrefix === '' ? '/' : siteConfig.pathPrefix,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
@@ -81,7 +84,17 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+      },
+      options: {
+        name: siteConfig.siteTitle,
+        short_name: siteConfig.siteTitleShort,
+        description: siteConfig.siteDescription,
+        start_url: siteConfig.pathPrefix,
+        background_color: siteConfig.backgroundColor,
+        theme_color: siteConfig.themeColor,
+        display: 'minimal-ui',
+        icon: `src/images/logo.png` // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-netlify-cms`
