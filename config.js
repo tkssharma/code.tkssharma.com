@@ -2,10 +2,10 @@ module.exports = {
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff',
   url: "https://code.tkssharma.com",
-  title: "Interview Diary | Website for JS Interviews",
-  tagline: "Keep Learning | Code everyday | Interview Preparations",
+  title: "@tkssharma | Interview Diary",
+  tagline: "@tkssharma | Keep Learning | Code everyday | Interview Preparations",
   copyright: "©2019 tkssharma",
-  siteTitle: 'Interview Diary',
+  siteTitle: '@tkssharma | Interview Diary',
   siteTitleShort: 'Interview Diary',
   siteTitleAlt: 'Tarun Sharma | @tkssharma',
   siteLogo: '/icons/icon-512x512.png',
