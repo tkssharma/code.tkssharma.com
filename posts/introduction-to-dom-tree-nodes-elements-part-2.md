@@ -3,7 +3,7 @@ tags:
   - javascript
 published: true
 date: 2020-03-10T13:54:07.809Z
-title: Introduction to the DOM, DOM Tree, Nodes and Elements Part-1
+title: Introduction to the DOM, DOM Tree, Nodes and Elements Part-2
 ---
 
 In Understanding the DOM Tree and Nodes, we went over how the DOM is structured as a tree of objects called nodes, and that nodes can be text, comments, or elements. Usually when we access content in the DOM, it will be through an HTML element node.
