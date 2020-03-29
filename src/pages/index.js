@@ -44,6 +44,7 @@ const IndexPage = ({ data }) => {
           `javascript`,
           `react`,
           `Node JS`,
+          `Typescript`,
           `Angular`,
           `DevOps`,
           `web development`,

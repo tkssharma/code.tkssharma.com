@@ -2,6 +2,9 @@
 tags:
   - typescript
   - javascript
+  - web development
+  - React
+  - Angular
 published: true
 date: 2020-03-24T13:54:07.809Z
 title: Typescript Interview Questions
