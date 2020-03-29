@@ -2,7 +2,7 @@
 tags:
   - javascript
 published: true
-date: 2020-03-10T13:54:07.809Z
+date: 2020-03-21T13:54:07.809Z
 title: Introduction to the DOM, DOM Tree, Nodes and Elements Part-2
 ---
 
