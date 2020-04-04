@@ -2,7 +2,7 @@
 tags:
   - javascript
 published: true
-date: 2020-03-14T13:54:07.809Z
+date: 2020-03-25T13:54:07.809Z
 title: Javascript's new features in 2020
 ---
 
