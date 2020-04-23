@@ -1,9 +1,8 @@
 ---
 tags:
-  - graphql
+  - nodejs
   - javascript
   - react
-  - Angular
 published: true
 date: 2020-03-02T13:54:07.809Z
 title: Javascript Interview Questions 03

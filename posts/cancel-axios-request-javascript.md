@@ -1,6 +1,8 @@
 ---
 tags:
   - javascript
+  - react
+  - nodejs
 published: true
 date: 2020-03-09T13:54:07.809Z
 title: cancelling axios request javascript
