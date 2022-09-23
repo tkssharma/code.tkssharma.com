@@ -11,6 +11,7 @@ export const PostSidebar = ({
   categories = [],
   thumbnail,
 }) => {
+  console.log(thumbnail)
   const category = categories?.filter((category) => category !== 'Highlight')
 
   return (

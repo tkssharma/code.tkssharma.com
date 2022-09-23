@@ -1,22 +1,13 @@
 const path = require('path')
-
-// Helpers
-function slugify(str) {
-  return (
-    str &&
-    str
-      .match(
-        /[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g
-      )
-      .map((x) => x.toLowerCase())
-      .join('-')
-  )
-}
+const sharp = require('sharp');
+sharp.simd(false)
+sharp.cache(false)
 
 const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPage = path.resolve('./src/templates/post.js')
+  const notePage = path.resolve('./src/templates/note.js')
   const pagePage = path.resolve('./src/templates/page.js')
   const tagPage = path.resolve('./src/templates/tag.js')
   const categoryPage = path.resolve('./src/templates/category.js')
@@ -51,6 +42,7 @@ const createPages = async ({ graphql, actions }) => {
   const all = result.data.allMarkdownRemark.edges
   const posts = all.filter((post) => post.node.frontmatter.template === 'post')
   const pages = all.filter((post) => post.node.frontmatter.template === 'page')
+  const notes = all.filter((post) => post.node.frontmatter.template === 'note')
   const tagSet = new Set()
   const categorySet = new Set()
 
@@ -95,6 +87,20 @@ const createPages = async ({ graphql, actions }) => {
       component: pagePage,
       context: {
         slug: page.node.fields.slug,
+      },
+    })
+  })
+
+  // =====================================================================================
+  // Notes
+  // =====================================================================================
+
+  notes.forEach((note) => {
+    createPage({
+      path: `/notes/${slugify(note.node.fields.slug)}`,
+      component: notePage,
+      context: {
+        slug: note.node.fields.slug,
       },
     })
   })
@@ -158,3 +164,16 @@ const createNode = ({ node, actions, getNode }) => {
 
 exports.createPages = createPages
 exports.onCreateNode = createNode
+
+// Helpers
+function slugify(str) {
+  return (
+    str &&
+    str
+      .match(
+        /[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g
+      )
+      .map((x) => x.toLowerCase())
+      .join('-')
+  )
+}

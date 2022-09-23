@@ -182,6 +182,8 @@ export const pageQuery = graphql`
             title
             tags
             categories
+
+
           }
         }
       }
@@ -202,6 +204,9 @@ export const pageQuery = graphql`
             title
             shortTitle
             tags
+
+
+
           }
         }
       }

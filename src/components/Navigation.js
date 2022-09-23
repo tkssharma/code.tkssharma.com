@@ -26,11 +26,11 @@ export const Navigation = ({ theme, onUpdateTheme }) => {
       <div className="container">
         <nav>
           <Link to="/" className="item brand">
-            <img src={floppyLogo} className="logo" alt="Tarun " />
-            <span>Tarun </span>
+            <img src={floppyLogo} className="logo" alt="Tarun Sharma" />
+            <span>Tarun Sharma</span>
           </Link>
-          {mainNavItems.map((item) => (
-            <div className="nav-item-outer">
+          {mainNavItems.map((item, index) => (
+            <div className="nav-item-outer" key={index}>
               <img src={item.icon} alt={item.label} className="nav-image" />
               <Link
                 to={item.url}
@@ -43,8 +43,8 @@ export const Navigation = ({ theme, onUpdateTheme }) => {
             </div>
           ))}
 
-          {socialNavItems.map((item) => (
-            <div className="nav-item-outer">
+          {socialNavItems.map((item, index) => (
+            <div className="nav-item-outer" key={index}>
               <img src={item.icon} alt={item.label} className="nav-image" />
               <a
                 href={item.url}

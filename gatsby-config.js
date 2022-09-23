@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: '@tkssharma',
+    title: 'Tarun Sharma',
     author: {
-      name: 'Tarun Sharma ',
+      name: '@TKSSHARMA',
     },
     pathPrefix: '/',
     siteUrl: 'https://code.tkssharma.com',
@@ -12,17 +12,42 @@ module.exports = {
     logo: 'https://code.tkssharma.com/logo.png',
   },
   plugins: [
+    'gatsby-plugin-sitemap',
     // ===================================================================================
     // Meta
     // ===================================================================================
-
+    {
+      resolve: `gatsby-plugin-advanced-sitemap`,
+      options: {
+        exclude: [
+          `/dev-404-page`,
+          `/404`,
+          `/404.html`,
+          `/tags`,
+          `/assets`,
+          `/loading`,
+          `/offline-plugin-app-shell-fallback`,
+        ],
+        createLinkInHead: true,
+        addUncaughtPages: true,
+      }
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Tarun ',
-        short_name: 'Tarun ',
+        name: 'Tarun Sharma',
+        short_name: 'Tarun Sharma',
         description:
           'Software engineer and open source creator. This is my digital garden.',
         start_url: '/',
@@ -58,7 +83,7 @@ module.exports = {
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [
                     { 'content:encoded': edge.node.html },
-                    { author: 'hello@Tarun.com' },
+                    { author: 'tarun.softengg@gmail.com' },
                   ],
                 })
               })
@@ -88,7 +113,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: 'Tarun  | RSS Feed',
+            title: 'Tarun Sharma | RSS Feed',
           },
         ],
       },

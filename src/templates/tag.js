@@ -50,6 +50,8 @@ export const pageQuery = graphql`
             title
             tags
             categories
+
+
           }
         }
       }
