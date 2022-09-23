@@ -15,6 +15,7 @@ import { slugify } from '../utils/helpers'
 export default function Index({ data }) {
   const latest = data.latest.edges
   const highlights = data.highlights.edges
+  console.log(highlights);
   const simplifiedLatest = useMemo(() => getSimplifiedPosts(latest), [latest])
   const simplifiedHighlights = useMemo(
     () =>
@@ -204,9 +205,13 @@ export const pageQuery = graphql`
             title
             shortTitle
             tags
-
-
-
+            thumbnail {
+              childImageSharp {
+                fixed(width: 150, height: 150) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
           }
         }
       }

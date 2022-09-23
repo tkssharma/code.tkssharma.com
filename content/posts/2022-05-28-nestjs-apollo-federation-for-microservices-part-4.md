@@ -10,6 +10,7 @@ categories:
   - graphql
   - nestjs
   - apollo
+  - Highlight
 tags:
   - graphql
   - nestjs
