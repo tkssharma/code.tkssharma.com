@@ -843,9 +843,6 @@ p.hero-description a:hover {
 
   .decoration {
     display: block;
-    padding: 3rem;
-    border-radius: var(--border-radius);
-    border: 4px dashed var(--border-color);
     white-space: nowrap;
   }
 
@@ -859,7 +856,7 @@ p.hero-description a:hover {
 
 @media screen and (min-width: 900px) {
   .decoration {
-    padding: 5rem;
+    padding: 1rem;
   }
 }
 

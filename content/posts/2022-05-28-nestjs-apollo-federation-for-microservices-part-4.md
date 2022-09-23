@@ -1,6 +1,8 @@
 ---
 date: 2022-05-28
 title: 'Nest js with apollo federation for building microservice architecture 🚀 Part-4'
+shortTitle: 'Nest js with apollo federation for building microservice architecture 🚀 Part-4'
+description: 'Nest js with apollo federation for building microservice architecture 🚀 Part-4'
 template: post
 thumbnail: '../thumbnails/nestjs.png'
 slug: nestjs-with-apollo-federation-for-microservices-part-4

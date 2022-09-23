@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
-
+import looking from '../../content/thumbnails/main.png'
 import { Layout } from '../components/Layout'
 import { SEO } from '../components/SEO'
 import { Heading } from '../components/Heading'
@@ -46,7 +46,7 @@ export default function Index({ data }) {
             </p>
           </Hero>
           <div className="decoration">
-            <p>Empty space</p>
+            <img src={looking} alt="Me" className="main-image" />
           </div>
         </div>
       </div>
