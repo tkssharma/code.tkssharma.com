@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from '@reach/router'
 
-import me from '../../content/thumbnails/me.png'
+import me from '../../content/thumbnails/main.png'
 
 export const AboutSidebar = () => {
   return (
