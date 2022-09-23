@@ -11,6 +11,14 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
+  "engines": {
+    "node": "12.x || 14.x || 16.x",
+    "npm": ">=6.9.x"
+  },
+  "devEngines": {
+    "node": "12.x || 14.x || 16.x",
+    "npm": ">=6.9.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Tarun/Tarun.com"
