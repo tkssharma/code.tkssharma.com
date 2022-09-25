@@ -4,7 +4,7 @@ shortTitle: 'TypeORM with Nest JS Application API development'
 title: 'TypeORM with Nest JS Application API development'
 description: 'TypeORM with Nest JS Application API development'
 template: post
-thumbnail: '../thumbnails/nestjs.png'
+thumbnail: '../thumbnails/node.png'
 slug: typescript-typeorm-with-nestjs
 categories:
   - Popular
