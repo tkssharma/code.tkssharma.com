@@ -47,7 +47,7 @@ export default function Index({ data }) {
             </p>
           </Hero>
           <div className="decoration">
-            <img src={looking} alt="Me" className="main-image" />
+            <img src={looking} style={{ 'borderRadius': '50%' }} alt="Me" className="main-image" />
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ export default function Index({ data }) {
           <div className="highlight-preview">
             {simplifiedHighlights.map((post) => {
               return (
-                <div className="muted card flex" key={`popular-${post.slug}`}>
+                <div className="muted card" key={`popular-${post.slug}`}>
                   {post.thumbnail && <Img fixed={post.thumbnail} />}
                   <div>
                     <time>{post.date}</time>
@@ -183,8 +183,6 @@ export const pageQuery = graphql`
             title
             tags
             categories
-
-
           }
         }
       }
@@ -207,7 +205,7 @@ export const pageQuery = graphql`
             tags
             thumbnail {
               childImageSharp {
-                fixed(width: 150, height: 150) {
+                fixed(width: 200, height: 200) {
                   ...GatsbyImageSharpFixed
                 }
               }

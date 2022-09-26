@@ -11,7 +11,9 @@ export const AboutSidebar = () => {
         <img src={me} alt="Tarun Sharma" />
       </div>
       <div className="post-sidebar-card">
-        <h2></h2>
+        <h5>Trainer</h5>
+        <h5>Developer</h5>
+        <h5>IT Consultant/Freelancer</h5>
       </div>
     </aside>
   )
