@@ -47,7 +47,7 @@ export default function Index({ data }) {
             </p>
           </Hero>
           <div className="decoration">
-            <img src={looking} style={{ 'borderRadius': '50%' }} alt="Me" className="main-image" />
+            <img src={looking}  alt="Me" className="main-image" />
           </div>
         </div>
       </div>
