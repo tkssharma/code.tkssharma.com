@@ -12,6 +12,8 @@ export const Post = ({ node, prefix }) => {
     formattedDate = dateArr.join(' ').slice(0, -1)
   }
 
+
+
   return (
     <Link
       to={prefix ? `/${prefix}${node.slug}` : node.slug}
