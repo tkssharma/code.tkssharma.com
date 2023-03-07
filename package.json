@@ -24,7 +24,7 @@
     "url": "https://github.com/Tarun/Tarun.com"
   },
   "dependencies": {
-    "gatsby": "^3.12.1",
+    "gatsby": "^5.7.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-advanced-sitemap": "^2.1.0",
     "gatsby-plugin-feed": "^3.12.0",
