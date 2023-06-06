@@ -13,6 +13,7 @@ import { slugify } from '../utils/helpers'
 const mainNavItems = [
   { url: '/me', icon: floppy, label: 'About me' },
   { url: '/blog', icon: blog, label: 'Writing' },
+  { url: '/publications', icon: blog, label: 'Publications' },
   { url: '/projects', icon: projects, label: 'Projects' },
 ]
 

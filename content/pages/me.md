@@ -8,9 +8,9 @@ I’m Tarun, I am Publisher, Trainer Developer, working on Enterprise and open s
 
 I am passionate Javascript developer writing end to end application using javascript using React, Angular 🅰️, Vue JS with Node JS, i publish video [tutorials](/learn) and write about everything I know. I aim to create a beautiful corner of the web free of ads, sponsored posts, newsletter pop-ups, affiliate links, and the rest of the annoying noise we're so accustomed to seeing on the internet these days.
 
-🎉🎉🎉 [Know More About Me](https://profile.tkssharma.com) 🎉🎉
+🎉🎉🎉 [Know More About Me](https://profile.code.tkssharma.com) 🎉🎉
 
-🎉🎉🎉 [Resume](https://tkssharma.com/resume) 🎉🎉
+🎉🎉🎉 [Resume](https://code.tkssharma.com/resume) 🎉🎉
 
 
 ## Talks and Sessions

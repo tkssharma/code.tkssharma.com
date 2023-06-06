@@ -63,13 +63,13 @@ export default function Projects() {
                     <time>{project.date}</time>
                     <a
                       className="card-header"
-                      href={`https://github.com/tkssharma/${project.slug}`}
+                      href={`${project.slug}`}
                       target="_blank"
                       rel="noreferrer"
                     >
                       {project.name}
                     </a>
-                    <p>{project.tagline}</p>
+                    <p>{project.description}</p>
                   </div>
                   <div className="links anchored">
                     {project.writeup && (
@@ -89,7 +89,7 @@ export default function Projects() {
                     )}
                     <a
                       className="button small flex"
-                      href={`https://github.com/tkssharma/${project.slug}`}
+                      href={`${project.slug}`}
                       target="_blank"
                       rel="noreferrer"
                     >

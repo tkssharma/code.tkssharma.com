@@ -22,8 +22,8 @@ tags:
 
 You can check Part-1/2 of this Blog from here, In this example we will build first graphql service Auth User Service
 
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-1
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-1
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
 
 To understand the whole architecture we need to have
 
@@ -574,7 +574,7 @@ We can plug this service to the graphql gateway, Now nest thing is build another
 
 This was just a quick introduction on what is apollo graphql federation gateway, lets explore more about this in our next Blog where we will check actual code implementation of graphql Gateway in nestjs.
 Lets take a look on Part-3
-https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-4
+https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-4
 
 ### References
 

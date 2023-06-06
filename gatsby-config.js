@@ -16,22 +16,6 @@ module.exports = {
     // ===================================================================================
     // Meta
     // ===================================================================================
-    {
-      resolve: `gatsby-plugin-advanced-sitemap`,
-      options: {
-        exclude: [
-          `/dev-404-page`,
-          `/404`,
-          `/404.html`,
-          `/tags`,
-          `/assets`,
-          `/loading`,
-          `/offline-plugin-app-shell-fallback`,
-        ],
-        createLinkInHead: true,
-        addUncaughtPages: true,
-      }
-    },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,

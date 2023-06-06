@@ -26,9 +26,9 @@ tags:
 - we will finally know how this architecture with apollo federation gateway with multiple microservice is a game changer technology 🎉
 
 This is a series of Blogs
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-3
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-4
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-3
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-4
 
 To understand the whole architecture we will be building all these services together
 
@@ -152,9 +152,9 @@ Three main things about apollo federation
 
 This was just a quick introduction on what is apollo graphql federation gateway, lets explore more about this in our next Blog where we will check actual code implementation of graphql Gateway in nestjs.
 
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-3
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-4
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-3
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-4
 
 ### References
 

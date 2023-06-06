@@ -24,7 +24,7 @@ Github link
 https://github.com/tkssharma/nestjs-with-apollo-federation-gateway
 
 You can check Part-1 of this Blog from here
-https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-1
+https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-1
 
 ![](../thumbnails/apollo-graphql-2.png)
 
@@ -322,9 +322,9 @@ Now lets build simple graphql services so we can see how we can share data acros
 
 This was just a quick introduction on what is apollo graphql federation gateway, lets explore more about this in our next Blog where we will check actual code implementation of graphql Gateway in nestjs.
 
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-3
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-4
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-3
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-4
 
 ### References
 

@@ -6,7 +6,7 @@ template: page
 
 ### Full Stack Developer
 
-- [tkssharma.com](https://www.tkssharma.com)
+- [code.tkssharma.com](https://www.code.tkssharma.com)
 - [tarun.softengg@gmail.com](mailto:tarun.softengg@gmail.com)
 - India, (Delhi/ Goa)
 

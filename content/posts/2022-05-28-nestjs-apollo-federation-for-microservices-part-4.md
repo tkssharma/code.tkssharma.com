@@ -25,9 +25,9 @@ You can check Part-1/2/3 of this Blog from here, In this example we will build a
 Github :
 https://github.com/tkssharma/nestjs-with-apollo-federation-gateway
 
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-1
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-3
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-1
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-3
 
 To understand the whole architecture we need to have
 
@@ -581,9 +581,9 @@ Notes ::
 - TypeORM migration will create entities as we start application
 - https://github.com/tkssharma/nestjs-with-apollo-federation-gateway clone this repo and play with this
 
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-3
-- https://tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-4
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-2
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-3
+- https://code.tkssharma.com/nestjs-with-apollo-federation-for-microservices-part-4
 
 ### References
 

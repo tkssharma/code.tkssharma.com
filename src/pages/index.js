@@ -95,7 +95,7 @@ export default function Index({ data }) {
                   <div>
                     <time>{post.date}</time>
                     <Link className="card-header" to={post.slug}>
-                      {post.title}
+                      {post.title || post.description}
                     </Link>
                   </div>
                 </div>
