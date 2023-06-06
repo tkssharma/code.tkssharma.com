@@ -67,7 +67,7 @@ export default function Projects() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      {project.name}
+                      {project.name} {project.icon}
                     </a>
                     <p>{project.description}</p>
                   </div>

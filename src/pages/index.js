@@ -47,7 +47,7 @@ export default function Index({ data }) {
             </p>
           </Hero>
           <div className="decoration">
-            <img src={looking}  alt="Me" className="main-image" />
+            <img src={looking} alt="Me" className="main-image" />
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@ export default function Index({ data }) {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        {project.name}
+                        {project.name} {project.icon}
                       </a>
                       <p>{project.tagline}</p>
                     </div>
