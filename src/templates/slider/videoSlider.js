@@ -80,7 +80,7 @@ const Video = ({ data, key }) => {
           <p className="heart-liked-text">Liked +1</p>
         </div>
       </div>
-      <Link key={`${link}-${key}`} to={`/${link}`} target="_blank" rel="noopener noreferrer" />
+      <Link key={`${link}-${key}`} to={`/learn-${link}`} target="_blank" rel="noopener noreferrer" />
     </figure>
   );
 };
