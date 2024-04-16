@@ -45,9 +45,14 @@ export const PostSidebar = ({
           <div>
             <h2>Category</h2>
             <ul>
-              <li>
-                <Link to={`/categories/${slugify(category)}`}>{category}</Link>
-              </li>
+              {category.map(i => {
+                return (
+                  <li>
+                    <Link to={`/categories/${slugify(i)}`}>{i}</Link>
+                  </li>
+                )
+              })}
+
             </ul>
           </div>
         )}
